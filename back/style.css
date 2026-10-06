@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f4f8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+
+    width: 460px;
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #444;
+
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+
+    margin-bottom: 18px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+    font-size: 16px;
+}
+
+h3 {
+    text-align: center;
+    color: #444;
+    margin: 10px 0 18px;
+}
+
+.pagamentos {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 12px;
+}
+
+button {
+    border: none;
+
+    padding: 15px 10px;
+
+    border-radius: 6px;
+
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.pix {
+    background-color: #16ad9f;
+}
+
+.dinheiro {
+    background-color: #20a844;
+}
+
+.cartao {
+    background-color: #087cf0;
+}
+
+.parcelado {
+    background-color: #737b83;
+}
+
+.resultado {
+    margin-top: 25px;
+
+    padding: 20px;
+
+    background-color: #f5f6f7;
+
+    border-left: 5px solid #087cf0;
+
+    border-radius: 6px;
+}
+
+.resultado p {
+    margin: 0 0 8px;
+    font-size: 16px;
+}
+
+.resultado strong {
+    font-size: 23px;
+}
